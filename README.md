@@ -1,2 +1,0 @@
-# psychty.github.io
-website
