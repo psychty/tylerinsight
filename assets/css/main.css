@@ -85,7 +85,7 @@ input, select, textarea {
 	body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -104,7 +104,7 @@ input, select, textarea {
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -2073,7 +2073,7 @@ h3 {
 			padding: 1.5em 0 0.75em 0;
 		}
 
-			#header .bottom > :last-child {
+		#header .bottom > :last-child {
 				margin-bottom: 0;
 			}
 
@@ -2082,8 +2082,8 @@ h3 {
 			text-align: center;
 		}
 
-			#header .icons a {
-				color: #41484c;
+		#header .icons a {
+			color: #41484c;
 				-moz-transition: color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out;
@@ -2112,7 +2112,7 @@ h3 {
 		#logo p {
 			position: relative;
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.8em;
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
@@ -2126,7 +2126,7 @@ h3 {
 
 	#nav ul {
 		list-style: none;
-		padding-left: 0;
+		padding-left:40%;
 		margin-bottom: 0;
 	}
 
@@ -2150,10 +2150,10 @@ h3 {
 				#nav ul li a span {
 					position: relative;
 					display: block;
-					font-size: 0.8em;
+					font-size: 1em;
 				}
 
-					#nav ul li a span:before {
+				#nav ul li a span:before {
 						position: absolute;
 						left: 0;
 						color: #41484c;
@@ -2168,8 +2168,8 @@ h3 {
 					color: #fff;
 				}
 
-					#nav ul li a.active span:before {
-						color: #e27689;
+			#nav ul li a.active span:before {
+				color: #e27689;
 					}
 
 /* Footer */
@@ -2256,11 +2256,15 @@ h3 {
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #d0d5d4;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #f5fafa;
+			}
+
+			#main > section.five {
+				background-color: #d0d5d4;
 			}
 
 /* Wide */
@@ -2270,7 +2274,7 @@ h3 {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 17pt;
+				font-size: 12pt;
 			}
 
 		/* Header */
@@ -2316,7 +2320,7 @@ h3 {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 12pt;
 			}
 
 			.container {
@@ -2391,7 +2395,7 @@ h3 {
 			}
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 12pt;
 			}
 
 			header br {
@@ -2582,7 +2586,7 @@ h3 {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 			h2 {
