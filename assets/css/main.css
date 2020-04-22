@@ -2620,6 +2620,11 @@ h3 {
 					padding: 0 1em;
 				}
 
+.listleft {
+text-align: left;
+}
+
+
 		/* Footer */
 
 			#footer .copyright li {
